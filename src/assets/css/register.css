@@ -1,0 +1,76 @@
+*{
+  margin:0;
+  padding:0
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+#content{
+  background: url("../images/login/beijing.png");
+  background-size: 100%;
+}
+html,body{
+  font-size: 62.5%;
+}
+#content{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+#circle{
+  width:8rem;
+  height: 8rem;
+  background: #bbbffc;
+  border-radius: 50%;
+  color:#FB8231;
+  font-size: 2rem;
+  text-align: center;
+  line-height:8rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+.phone{
+  width:75%;
+  margin: 0 auto;
+  background:#e9e0f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.4rem;
+}
+.phone input {
+  height: 4rem;
+  border: none;
+  outline: none;
+  background:#d5c5e9;
+  text-indent: 1rem;
+  color:white;
+  width: 85%;
+  box-sizing: border-box;
+}
+.phone img{
+  margin-left: 1rem;
+}
+.authCode{
+  width:75%;
+  height: 4rem;
+  background: #FB8231;
+  margin:  0 auto;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.8rem;
+  color:white;
+  margin-bottom: 1.4rem;
+}
+#deal{
+  width:75%;
+  margin: 0 auto;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}

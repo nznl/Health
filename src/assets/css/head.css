@@ -1,0 +1,23 @@
+*{margin：0；padding:0}
+html,body{
+  font-size: 62.5%;
+}
+#heade{
+  width:100%;
+  background: #FB8231;
+  text-align: center;
+  height: 68px;
+  color: #FEFEFE;
+  line-height: 68px;
+}
+#heade span{
+  font-size: 2rem;
+}
+#heade a{
+  font-size: 4rem;
+  font-weight: normal;
+  color: #FEFEFE;
+  text-decoration: none;
+  position: absolute;
+  left: 0;
+}

@@ -1,0 +1,96 @@
+*{margin:0;padding:0}
+html,body{
+  width:100%;
+  font-size: 62.5%;
+}
+#header{
+  width:100%;
+  background: #FB8231;
+  text-align: center;
+  height: 6.8rem;
+  line-height: 6.8rem;
+}
+#adress{
+  width:1.6rem;
+  position: absolute;
+  top:2.2rem;
+  left:5%;
+}
+#header input{
+  height:3.2rem;
+  width:68%;
+  text-indent: 3rem;
+  border: none;
+}
+#search{
+  width: 1.6rem;
+  position: absolute;
+  top:2.6rem;
+  left:25%
+}
+#nav-photo{
+  width:100%;
+}
+#nav{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+#nav li{
+  width:25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+#nav li img {
+  width: 74px;
+}
+.gap{
+  width:100%;
+  height:0.8rem;
+  background:#f5f5f5
+}
+#left{
+  float: left;
+  width:50%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-right: 1px solid #ebebeb;
+  box-sizing: border-box;
+}
+#left img{
+  width:86%
+}
+#right-s,#right-x{
+  float:right;
+  width:50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height:12.6rem;
+}
+#right-s{
+  border-bottom: 1px solid #ebebeb ;
+}
+#right-s img{
+  width:32%
+}
+#right-x img{
+  width:32%
+}
+#bottom{
+  width: 100%;
+  height: 25rem;
+}
+#home{
+  margin-bottom: 5.6rem;
+}

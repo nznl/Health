@@ -1,0 +1,156 @@
+*{margin: 0;padding: 0;  }
+html,body{
+  font-size: 62.5%
+}
+#caption{
+  display: flex;
+  width: 95%;
+  margin: 1rem auto;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+#caption div{
+  width:84%;
+  border-right: 1px solid #7e7e7e;
+}
+#caption span{
+  width: 4rem;
+  height: 4rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: #359ddc;
+  border-radius: 50%;
+}
+.gap{
+  width:100%;
+  height:0.7rem;
+  background:#f5f5f5
+}
+#price{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+
+}
+#wiBu{
+  border-bottom: 1px solid #ebebeb;
+  width: 100%;
+  height: 6rem;
+}
+#priceL{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.8rem;
+}
+#priceR {
+  background: #ff6f0f;
+  color: #FFFFFF;
+  width: 7rem;
+  height: 3rem;
+ text-align: center;
+  line-height: 3rem;
+  font-size: 2rem;
+}
+#repertory{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#repertory p{
+  width: 50%;
+  box-sizing: border-box;
+  border-right: 1px solid #ebebeb;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+#repertory p:nth-child(2){
+  border-right: none
+}
+
+#repertory p span{
+  color: #7e7e7e;
+}
+#inFoB{
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+}
+#inFoN{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 4rem;
+}
+.photoB{
+  width: 49.5%;
+  box-sizing: border-box;
+}
+#liang{
+  width: 100%;
+  height: 26rem;
+  background: url("../images/goods/组-23.png");
+  background-size: cover;
+  position: relative;
+}
+#shopping{
+  width:100%;
+  height: 4.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+#one{
+  width: 38%;
+  display: flex;
+  justify-content: space-around;
+  color: #7e7e7e;
+  align-items: center;
+  text-align: center;
+
+}
+#one span{
+  font-size: 1.6rem;
+}
+#two{width: 36%;
+      text-align: center;
+      line-height:4.6rem;
+      font-size: 2rem;
+  color: #ffffff;
+  background: #7e7e7e;
+
+
+}
+#three{
+  width: 36%;
+  text-align: center;
+  line-height:4.6rem;
+  font-size: 2rem;
+  color: #ffffff;
+  background:#FB8231;
+}
+#fenxiang{
+  width: 100%;
+  height:8rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 1px solid #9e9e9e;
+  box-shadow: 5px 5px 5px darkgrey;
+  display: none;
+}
+#fenxiang img{
+  width: 6.5rem;
+  height: 6.5rem;
+  float: left;
+  margin: 0.65rem;
+}
